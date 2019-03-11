@@ -14,4 +14,4 @@ request.get('https://sytantris.github.io/http-examples/future.jpg')             
         }) 
 
 
-       .pipe(fs.createWriteStream('./downloaded.html'));  
+       .pipe(fs.createWriteStream('./image.jpg'));  
